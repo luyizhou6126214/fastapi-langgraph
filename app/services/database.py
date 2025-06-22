@@ -50,7 +50,7 @@ class DatabaseService:
             )
 
             # Create tables (only if they don't exist)
-            SQLModel.metadata.create_all(self.engine)
+            # SQLModel.metadata.create_all(self.engine)
 
             logger.info(
                 "database_initialized",
